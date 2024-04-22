@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media-query.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="navbar">
+        <div class="logo">Gulshan</div>
+        <div class="navitems">
+            <ul id="nav-bar">
+          <li><a href="">Home</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="">Page</a></li>
+          <li><a href="">Testimonials</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+        </div>
+        <i class="fa-solid fa-bars" id="togglebtn"></i>
+      </div>
+    </nav>
+    <div class="hero">
+      <div class="profession flex">Website Developer</div>
+      <div class="detail">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati,
+          reiciendis adipisci eius qui maxime soluta officia laudantium
+          voluptates exercitationem ratione, inventore modi odit ullam
+          consectetur vel, aperiam officiis pariatur ipsum.
+        </p>
+      </div>
+      <button class="btn">See More</button>
+      <button class="consult">Request A Consult</button>
+    </div>
+    <div class="passion">
+      <div class="LB">
+        <i class="fas fa-rocket"></i>
+        <span>LAUNCH BUSINESS</span>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+          illum minus molestiae placeat nisi debitis fugit magnam exercitationem
+          natus id?
+        </p>
+      </div>
+      <div>
+        <i class="fas fa-headphones"></i>
+        ONLINE SUPPORT TEAM
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+          similique consequuntur perspiciatis porro blanditiis magni itaque
+          dignissimos beatae veniam aliquid!
+        </p>
+      </div>
+      <div>
+        <i class="far fa-clock"></i>
+        TIME MANAGEMENT
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero,
+          voluptatem. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Numquam, commodi?
+        </p>
+      </div>
+    </div>
+    <div class="about">
+      <div class="aboutus">
+        <span>About Us</span>
+        <p class="title">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci,
+          voluptas?
+        </p>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores
+          at quidem, nobis delectus, beatae labore, inventore nostrum minus
+          tenetur dolorem fugit! Dolor corporis quod hic quis incidunt dolorem
+          asperiores animi! Lorem ipsum dolor, sit amet consectetur adipisicing
+          elit. Necessitatibus quo itaque impedit nisi quas perferendis
+          consequatur nobis. Nam, voluptatibus nemo cum impedit, tenetur harum
+          accusantium obcaecati non eius a in! Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Corrupti vitae eum, quam quasi
+          asperiores quaerat tempore cupiditate incidunt dignissimos commodi
+          laboriosam eveniet expedita ab vel officiis reprehenderit debitis
+          nemo. Quidem!
+        </p>
+        <button class="btn1">Read More</button>
+      </div>
+      <div class="pic"></div>
+    </div>
+    <div class="service">
+        <span>Our Services</span>
+        <div class="services">
+            <div class="de">
+              <a href=""><div class="title">
+                <i class="fa-solid fa-envelope-open-text"></i> Data Entry
+              </div></a>
+            </div>
+
+            <div class="fed">
+             <a href=""> <div class="title">
+              <i class="fa-solid fa-code"></i> Front-End Developer
+              </div></a>
+            </div>
+            <div class="ve">
+              <a href="">
+              <div class="title">
+                <i class="fa-solid fa-video"></i> Video Editing
+              </div></a>
+            </div>
+            <div class="dm">
+              <a href="">
+              <div class="title">
+                <i class="fa-solid fa-video"></i> Digital Marketing
+              </div></a>
+            </div>
+
+        </div>
+    </div>
+    <div class="contact">
+        <div class="social">
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-linkedin"></i>
+          <i class="fab fa-github"></i>
+          <i class="fab fa-npm"></i>
+        </div>
+        <span>+923113969283</span>
+        <span>gulshan.koondhar@outlook.com</span>
+        <button>Contact Me</button>
+      </div>
+      <script>
+        const navbar = document.querySelector("#nav-bar");
+        const togglebtn = document.querySelector("#togglebtn");
+        togglebtn.addEventListener('click', () =>{
+            navbar.classList.toggle('active')
+        })
+      </script>
+  </body>
+</html>

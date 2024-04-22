@@ -1,0 +1,71 @@
+@media screen and (max-width: 991px) {
+    .navitems ul {
+        display: block;
+        position : absolute;
+        top:60px;
+        left: 0;
+        width: 100%;
+        background-color: aqua;
+    }
+    .navitems ul li a{
+        font-size: 1.5rem;
+    }
+    .navitems ul.active{
+        display: none;
+    }
+
+    .passion {
+        flex-direction: column;
+        height: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .about {
+        flex-direction: column;
+        height: auto;
+        margin-left: 10px;
+    }
+    .about .aboutus{
+        width: 100%;
+    }
+    .about .pic{
+        display: none
+    }
+    .service{
+        margin-left: 0;
+        margin-left: 0;
+    }
+    .services{
+        padding: 0;
+    }
+    .contact{
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 500px) {
+    .profession {
+        font-size: 50px;
+        position: relative;
+        top: 50px;
+    }
+    .detail {
+        font-size: 25px;
+        margin-top: 10px;
+        position: relative;
+        top: 60px;
+    }
+    .btn {
+        position: relative;
+        top: 70px;
+        margin-right: 20px;
+        background: linear-gradient(to left, rgb(228, 102, 123) , rgb(221, 221, 100) ) right;
+    }
+    .consult{
+        position: relative;
+        top: 70px;
+        
+    }
+    
+}
